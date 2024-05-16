@@ -299,6 +299,8 @@ padding-left: 16px;
 display: flex;
 flex-direction: column;
 height: 100%;
+margin-left: auto;
+margin-right: auto;
 }
 .mobile-menu{
     position: fixed;
@@ -341,6 +343,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu-nav{
     margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .mobile-menu-list{
     display: flex;
@@ -348,9 +352,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap: 40px;
 }
 
-.different{
-color: #404bbf;
-}
 .mobile-menu-list-link{
     display: block;
      font-weight: 700;
@@ -358,11 +359,93 @@ color: #404bbf;
       line-height: 1.11;
      letter-spacing: 0.02em;
 }
+.address-mobile-menu{
+    margin-top: 168px;
+    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.address-mobile-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.address-mobile-menu-link{
+    display: block;
+     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+     letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address-mobile-menu-link:hover,
+.address-mobile-menu-link:focus{
+ color: #404bbf;
+}
+.different {
+    color: #404bbf;
+}
+.mobile-menu-social-list{
+ display: flex;
+justify-content: center;
+ align-items: center;
+ width: 280px;
+height: 40px;
+gap: 40px;
+ margin-left: auto;
+margin-right: auto;
+}
+.mobile-menu-social-list-item{
+width: 40px;
+height: 40px;
+}
+.mobile-menu-social-list-link{
+display: flex;
+ align-items: center;
+justify-content: center;
+ border-radius: 50%;
+ width: 100%;
+height: 100%;
+ background-color: #4d5ae5;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-social-list-link:focus,
+.mobile-menu-social-list-link:hover{
+background-color: #31d0aa;
+}
+.mobile-menu-social-list-icon{
+ fill: #f4f4fd;
+}
+
+@media screen and (min-width: 767px) {
+.mobile-menu{
+    display: none;
+}
+}
 /* ========================================================================================================================================================
 our benefits
 ======================================================================================================================================================== */
 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+@media screen and (max-width: 767px){
+    .benefits-list {
+        display: flex;
+        flex-direction: column;
+         gap: 72px;
+        }
+}
 
 
 
