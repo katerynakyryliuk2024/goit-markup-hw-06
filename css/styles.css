@@ -439,14 +439,77 @@ our benefits
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-@media screen and (max-width: 767px){
     .benefits-list {
         display: flex;
         flex-direction: column;
          gap: 72px;
+        padding-top: 96px;
+        }
+     .benefits-container{
+        display: none;
+     }
+     .benefits-title {
+     font-weight: 700;
+     font-size: 36px;
+      line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+     }
+     .benefits-text {
+     font-weight: 500;
+     line-height: 1.5;
+    letter-spacing: 0.02em;
+     }
+
+@media screen and (min-width: 768px){
+
+.benefits-list-item {
+ width: calc((100% - 24px) / 2);
+}
+.benefits-list{
+flex-wrap: wrap;
+flex-direction: row;
+gap: 24px;
+}
+}
+@media screen and (min-width: 1158px){
+.benefits-list {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .benefits-list-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .benefits-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4fd;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+    }
+
+    .benefits-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+     .benefits-text {
+    font-weight: 400;
         }
 }
 
-
+/* ========================================================================================================================================================
+Team
+======================================================================================================================================================== */
+.team {
+ background-color: #f4f4fd;
+}
 
 
