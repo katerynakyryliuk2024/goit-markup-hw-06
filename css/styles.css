@@ -201,3 +201,169 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 Hero
 ======================================================================================================================================================== */
 
+.hero {
+    background: #2e2f42;
+    max-width: 320px;
+    min-height:432px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img/Dark-bg-mob-@1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-title {
+    max-width: 216px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffff;
+    margin: 0 auto 72px;
+}
+.hero-button {
+    padding: 16px 32px;
+    border: none;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffff;
+    background-color: #4d5ae5;
+    margin: 0 auto;
+    display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+.hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img/Dark-bg-mob-@2x.jpg);
+}
+}
+@media screen and (min-width: 768px) {
+.hero{
+    max-width: 768px;
+    min-height: 436px;
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img/Dark-bg-tab-@1x.jpg);
+}
+.hero-title{
+max-width: 496px;
+font-size: 56px;
+ line-height: 1.07;
+margin: 0 auto 36px;
+}
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi){
+.hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img/Dark-bg-tab-@2x.jpg);
+}
+}
+@media screen and (min-width: 1158px) {
+.hero {
+    max-width: 1440px;
+    min-height: 600px;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img/people-office-desk-@1x.jpg);
+    }
+ .hero-title {
+ max-width: 496px;
+ font-size: 56px;
+ line-height: 1.07;
+margin: 0 auto 48px;
+    }
+}
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi){
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img/people-office-desk-@2x.jpg);
+    }
+}
+
+/* ========================================================================================================================================================
+mobile-menu
+======================================================================================================================================================== */
+
+.mobile-menu-container{
+position: relative;
+padding-top: 72px;
+padding-bottom: 40px;
+padding-left: 16px;
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+.mobile-menu{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #2e2f42;
+    z-index: 99999;
+    overflow-y: auto;
+}
+.mobile-menu-close-btn{
+position: absolute;
+line-height: 0;
+border: none;
+background-color: transparent;
+padding: 0;
+ top: 24px;
+right: 24px;
+border-radius: 50%;
+width: 24px;
+height: 24px;
+cursor: pointer;
+background-color: #e7e9fc;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:focus{
+ background-color: #404bbf;
+border: none;
+}
+.mobile-menu-close-btn-icon{
+fill: #2e2f42;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-close-btn:hover .mobile-menu-close-btn-icon, .mobile-menu-close-btn:focus .mobile-menu-close-btn-icon{
+    fill: #ffffff;
+}
+.mobile-menu-nav{
+    margin-bottom: auto;
+}
+.mobile-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.different{
+color: #404bbf;
+}
+.mobile-menu-list-link{
+    display: block;
+     font-weight: 700;
+     font-size: 36px;
+      line-height: 1.11;
+     letter-spacing: 0.02em;
+}
+/* ========================================================================================================================================================
+our benefits
+======================================================================================================================================================== */
+
+
+
+
+
+
