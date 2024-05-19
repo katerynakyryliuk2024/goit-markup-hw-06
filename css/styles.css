@@ -473,6 +473,11 @@ row-gap: 72px;
 }
 }
 @media screen and (min-width: 1158px){
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .section-paddings {
         padding: 120px 0 120px;
     }
@@ -603,6 +608,7 @@ justify-content: center;
 }
 .team-list-item {
  width: calc((100% - 24px) / 2);
+ width: 264px;
 }
 }
 @media screen and (min-width: 1158px){
@@ -610,8 +616,8 @@ justify-content: center;
     padding: 120px 0 120px;
     }
 .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .team-list{
     flex-wrap: nowrap;
@@ -686,8 +692,8 @@ font-size: 16px;
 }
 @media screen and (min-width: 768px) {
 .container {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
  .our-portfolio-list {
@@ -700,6 +706,7 @@ row-gap: 72px;
 @media screen and (min-width: 1158px){
 
     .our-portfolio-list-item {
+        box-shadow: none;
             transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
@@ -737,7 +744,6 @@ Footer
 .contacts-logo-container{
     display: flex;
     flex-direction: column;
-    gap:16px;
 }
 .contacts-logo {
     font-family: "Raleway", sans-serif;
@@ -772,7 +778,6 @@ Footer
 .contacts-media-container {
  display: flex;
  flex-direction: column;
- margin-right: auto;
 }
 .contacts-media-text {
  margin-bottom: 16px;
@@ -887,9 +892,7 @@ padding-left: 16px;
     margin-left: 16px;
 }
 @media screen and (min-width: 768px){
-    .contacts{
-    margin-top: 96px;
-    }
+
  .contacts-logo{
     text-align: left;
  }
@@ -930,7 +933,9 @@ width: 264px;
             padding-top: 60px;
             padding: 100px 0;
         }
-
+.contacts-media-container{
+    margin-right: auto;
+}
 .contacts-logo-container {
     margin-right: 120px;
     display: block;
